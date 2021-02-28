@@ -688,8 +688,6 @@ try:
         # yellow = lambda: color(33)
         # blue   = lambda: color(34)
 
-        print("DEBUG")
-
         parser = argparse.ArgumentParser()
         parser.add_argument("api_key")
         parser.add_argument("--logs", action="store_true")
